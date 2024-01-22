@@ -35,7 +35,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Stockholms Tekniska Institut</li>
+        <li>STI - Stockholms Tekniska Institut</li>
       </ul>
     ),
   },
@@ -44,8 +44,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li></li>
-        <li></li>
+        <li>SoloLearn Java Intermediate</li>
+        <li>SoloLearn Javascripts Intermediate</li>
       </ul>
     ),
   },
