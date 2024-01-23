@@ -16,6 +16,7 @@ const TAB_DATA = [
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>Tailwind</li>
           </ul>
         </div>
         <div>
