@@ -7,56 +7,47 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "TypeRacer",
+    description: "Project worked on to evaluate time and accuracy in a speed-writing test.",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/HampusCastle/TypeRacer",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Dungeon Run",
+    description: "A fun project we did during our Java course. Aim of the game is to beat different types of monsters, aquire cool weapons. Everything is stored in a database so that you could easily start from where you last left off.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/HampusCastle/DungeonV2",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Hackaton cryptogenic challenge",
+    description: "A fun challange given to us during a hackaton. Very fun thing to try out!",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/HampusCastle/Hackaton_dag_2",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Dice Game",
+    description: "My first ever Java project. A staple of it's own and a showcase of the progress that has been made since!",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/HampusCastle/DiceGame",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "My Website",
+    description: "The website you are currently on. My first insight into react, next.js and tailwind.",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/HampusCastle/portfolio-project",
     previewUrl: "/",
   },
 ];
@@ -92,13 +83,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Backend"
+          isSelected={tag === "Backend"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Frontend"
+          isSelected={tag === "Frontend"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
