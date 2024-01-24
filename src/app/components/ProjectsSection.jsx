@@ -8,47 +8,47 @@ const projectsData = [
   {
     id: 1,
     title: "TypeRacer",
-    description: "Project worked on to evaluate time and accuracy in a speed-writing test.",
+    description: "A project focused on assessing both the time efficiency and accuracy within a speed-writing test.",
     image: "/images/projects/1.png",
     tag: ["All", "Backend"],
     gitUrl: "https://github.com/HampusCastle/TypeRacer",
-    previewUrl: "/",
+    //previewUrl: "/",
   },
   {
     id: 2,
     title: "Dungeon Run",
-    description: "A fun project we did during our Java course. Aim of the game is to beat different types of monsters, aquire cool weapons. Everything is stored in a database so that you could easily start from where you last left off.",
+    description: "During our Java course, we engaged in an enjoyable project centered around a game where the objective is to defeat various types of monsters, acquire impressive weapons, and seamlessly resume progress from the last session, thanks to data storage in a database.",
     image: "/images/projects/2.png",
     tag: ["All", "Backend"],
     gitUrl: "https://github.com/HampusCastle/DungeonV2",
-    previewUrl: "/",
+    //previewUrl: "/",
   },
   {
     id: 3,
     title: "Hackaton cryptogenic challenge",
-    description: "A fun challange given to us during a hackaton. Very fun thing to try out!",
+    description: "We were presented with an engaging challenge during a hackathon—a delightful experience to explore and experiment with.",
     image: "/images/projects/3.png",
     tag: ["All", "Backend"],
     gitUrl: "https://github.com/HampusCastle/Hackaton_dag_2",
-    previewUrl: "/",
+    //previewUrl: "/",
   },
   {
     id: 4,
     title: "Dice Game",
-    description: "My first ever Java project. A staple of it's own and a showcase of the progress that has been made since!",
+    description: "My initial Java project stands as a distinctive achievement, serving as both a standalone creation and a testament to the advancements made in my programming journey.",
     image: "/images/projects/4.png",
     tag: ["All", "Backend"],
     gitUrl: "https://github.com/HampusCastle/DiceGame",
-    previewUrl: "/",
+    //previewUrl: "/",
   },
   {
     id: 5,
     title: "My Website",
-    description: "The website you are currently on. My first insight into react, next.js and tailwind.",
+    description: "The website you are currently exploring represents my initial exploration into React, Next.js, and Tailwind, offering valuable insights into these technologies.",
     image: "/images/projects/5.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/HampusCastle/portfolio-project",
-    previewUrl: "/",
+    //previewUrl: "/",
   },
 ];
 
@@ -107,7 +107,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
+              //previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}
